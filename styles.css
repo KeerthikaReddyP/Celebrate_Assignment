@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display:flex;
+    width : 90%;
+    height : 90%;
+    overflow: hidden;
+}
+
+.login-section{
+    width : 60%;
+    height:100%;
+    padding : 5%;
+}
+
+.image-section{
+    width : 40%;
+    height:100%;
+    padding :5%;
+}
+
+.login-header{
+    display:flex;
+    justify-content: space-between;
+}
+
+h2, #welcome-para{
+    margin:5%;
+    text-align:center;
+}
+h2{
+    font-size:3rem;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    margin-left:10rem;
+}
+
+input[type="text"],input[type="password"]{
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:0.5rem;
+    width:70%;
+}
+
+#remember-me{
+    margin-bottom:10px;
+}
+
+#login-btn{
+    padding:10px;
+    background-color:green;
+    color:white;
+    border:none;
+    border-radius:0.5rem;
+    margin-bottom:10px;
+    cursor:pointer;
+    width:75%;
+    align-items:center;
+    font-size:1rem;
+}
+
+#enroll-link, .other-links a{
+    text-decoration : none;
+    color : green;
+}
+
+.other-links{
+    text-align:center;
+    margin-top:5px;
+    font-size:0.8rem;
+}
+
+.login-footer{
+    margin-top:40px;
+    text-align:center;
+    font-size:0.9rem;
+}
+
+#logo{
+    height: 60px;
+}
+
+#house-img{
+    height : 90%;
+    border-radius : 5%;
+}
